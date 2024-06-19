@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "grpc-server/advice";
+
+package advice;
+
+service Advice {
+    rpc GetAdvice (Empty) returns (AdviceMessage) {}
+}
+
+message Empty {}
+
+message AdviceMessage {
+    string message = 1;
+}
