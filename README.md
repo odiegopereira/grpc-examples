@@ -55,7 +55,7 @@ cd grpc-examples
 O repositório está organizado da seguinte forma:
 
 ```
-grpc-tests/
+grpc-examples/
 ├── grpc-server/
 │   ├── main.go
 │   ├── advice/
